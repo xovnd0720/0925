@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-sclae=1.0"/>
+	<title>jQuery Mobile</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+</body>
+	<div data-role="page" id="home">
+		<div data-role="header">
+			<h1>스마트 페이지 링크 처리법</h1>
+		</div>
+		<div data-role="content">
+			<h2>외부 프로그램 링크</h2>
+			<ul data-role="listview" data-inset="true">
+				<li><a href="mailto:wkrkwkrk123@naver.com">이메일 링크</a></li>
+				<li><a href="tel:01076507422" target="_blank">전화번호 링크</a></li>
+				<li><a href="sms:01076507422" target="_blank">자신의 SMS 문자 링크</a></li>
+				<li><a href="https://www.google.com/maps?q=35.1657709,129.0703436,17z.0725323?hl=ko" target="_blank">위성좌표 링크</a></li>
+				<li><a href="http://maps.google.com/maps?q=대한민국+부산광역시+부산진구+양정동+양지로+54" target="_blank">주소 링크</a></li>
+			</ul>
+		</div>
+		<div data-role="footer" class="ui-bar" data-position="fixed">
+			<a href="#" data-icon="grid" rel="external">Index</a>
+		</div>
+	</div>
+</html>
